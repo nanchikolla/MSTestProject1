@@ -11,7 +11,7 @@ namespace MSTestProject1
             public void TestWebSiteText()
             {
                 string assignedtext = "Welcome Viaan Kolla with your parents!!!";
-                System.Console.WriteLine("Hello Guys");
+                System.Console.WriteLine("Hello Guys!");
                 System.Environment.SetEnvironmentVariable("webdriver.chrome.driver", "chromedriver.exe");
                 IWebDriver driver = new ChromeDriver("C:\\Projects\\webapps\\ChromeBrowserTesting\\bin\\Debug\\net6.0"); //<-Add your path
                 driver.Navigate().GoToUrl("https://dotnetcorewebapp11.azurewebsites.net/");
